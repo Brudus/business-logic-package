@@ -20,6 +20,8 @@ public struct SomeSpecialView: View {
     }()
     let calculator = Calculator()
 
+    public init() {}
+
     public var body: some View {
         VStack(alignment: .center, spacing: 8) {
             Text("Calculator")
